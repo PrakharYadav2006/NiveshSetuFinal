@@ -1,0 +1,18 @@
+{
+  "name": "niveshsetu",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "NiveshSetu — Hindi + English market simulator and stock-tip scam demo with an AI reasoning coach. Team Ghotala Virodhi, SANGYAN 2026 Track C.",
+  "scripts": {
+    "start": "node server.js",
+    "audio": "node scripts/generate-audio.js",
+    "test:ai": "node scripts/test-ai.js",
+    "test:sarvam": "node scripts/test-ai.js",
+    "test": "node scripts/test-safety.js && node scripts/check-brand.js",
+    "check:links": "node scripts/check-links.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

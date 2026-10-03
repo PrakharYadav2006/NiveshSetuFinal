@@ -1,0 +1,3 @@
+// NiveshSetu brand: a bridge (setu) with a rising line — from a tip to an informed decision.
+export const LOGO = `<svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M4 34h40" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M8 34c0-11 7-18 16-18s16 7 16 18" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M16 34v-9M24 34V16M32 34v-9" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M6 12l8 4 7-6 9 5 12-9" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/></svg>`;
+export const NAME = { hi: 'निवेश सेतु', en: 'NiveshSetu', mr: 'निवेश सेतु' };
