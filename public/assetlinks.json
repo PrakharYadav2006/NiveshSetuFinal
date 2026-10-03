@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.nivesh_setu_final.twa",
+        "sha256_cert_fingerprints": ["C8:7A:17:C9:30:85:D1:58:28:3E:D5:50:28:30:11:A7:22:DE:EC:D0:C7:D0:05:14:27:9F:B4:4D:A4:E5:85:BB"]
+      }
+    }]
