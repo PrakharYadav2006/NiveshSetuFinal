@@ -23,4 +23,11 @@
   <a class="go" href="demo-run/"><b>Telegram टिप डेमो · Tip demo</b><span>टिप से ठगी तक की कहानी · From a tip to a scam, in Hindi / English</span></a>
 </main>
 <script type="module">import { initTheme } from './shared/theme.js'; initTheme();</script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
 </body></html>
